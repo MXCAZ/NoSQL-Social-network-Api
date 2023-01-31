@@ -1,0 +1,29 @@
+{
+  "name": "nosql-social-network-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MXCAZ/NoSQL-Social-network-Api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MXCAZ/NoSQL-Social-network-Api/issues"
+  },
+  "homepage": "https://github.com/MXCAZ/NoSQL-Social-network-Api#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
